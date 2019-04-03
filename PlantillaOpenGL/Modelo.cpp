@@ -3,7 +3,8 @@
 
 
 Modelo::Modelo() {
-
+	//Establecer transfomraciones con una matris identidad
+	transformaciones = mat4(1.0f);
 }
 
 void Modelo::inicializarVertexArray(GLuint posicionID, GLuint colorID, GLuint transformacionesID) {
